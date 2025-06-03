@@ -4,7 +4,11 @@ This Azure Workbook uses the powerful `resourcechanges` table from Azure Resourc
 
 By querying this table, the workbook shows **what was modified, who made the change, and when it happened**.
 
-**Example**:
+> [!NOTE]  
+> The Azure Resource Graph `resourcechanges` table provides detailed insights into what changed in your resources over time, while Activity Logs capture all control plane operations performed on those resources—including both successful and failed actions—for broader auditing and monitoring purposes.
+
+
+**Workbook illustration**:
 ![img](./img/Workbook_img.png)
 
 Sources:
